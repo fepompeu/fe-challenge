@@ -1,0 +1,22 @@
+@import "../../../../styles/colors.scss";
+
+.cardName {
+  min-width: 150px;
+  color: $link;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cardScore {
+  min-width: 65px;
+}
+
+.lose {
+  background-color: $lose;
+  border-radius: 8px;
+}
+
+.win {
+  background-color: $win;
+  border-radius: 8px;
+}

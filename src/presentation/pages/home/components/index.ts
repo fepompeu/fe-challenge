@@ -1,0 +1,6 @@
+export { default as Card } from './card/card'
+export { default as GameCards } from './game-cards/game-cards'
+export { default as GamesDetails } from './games-details/games-details'
+export { default as Modal } from './modal-home/modal-home'
+export { default as PlayerCards } from './player-cards/player-cards'
+export { default as Players } from './players/players'

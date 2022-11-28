@@ -1,0 +1,12 @@
+@import "../../../../styles/colors.scss";
+
+.card {
+  height: 25px;
+  background-color: $white;
+  display: flex;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  width: 520px;
+  flex-direction: row;
+  flex: 1;
+}

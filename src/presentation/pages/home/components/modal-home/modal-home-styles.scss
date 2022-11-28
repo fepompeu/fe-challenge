@@ -1,0 +1,53 @@
+@import "../../../../styles/colors.scss";
+
+.modal {
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  background-color: $boxBackground;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+
+  .header {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .body {
+    height: 70%;
+    display: flex;
+
+    .picture {
+      margin-right: 25px;
+      border: 2px solid $boxBorder;
+      height: 120px;
+      width: 120px;
+    }
+
+    .rows {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 30px;
+
+        &.contentRow {
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    text-align: right;
+    height: 10%;
+  }
+}
